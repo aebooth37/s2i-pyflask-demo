@@ -3,11 +3,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return '<h1>Hello, World! - Pyflask Demo - v4.0</h1>'
+    return '<h1>Hello, World! - Pyflask Demo - v5.0</h1>'
 
 @app.route('/version')
 def get_version():
-    return '<h1>App version : <b>4.0</b></h1>'
+    return '<h1>App version : <b>5.0</b></h1>'
 
 @app.route('/test')
 def get_test():
